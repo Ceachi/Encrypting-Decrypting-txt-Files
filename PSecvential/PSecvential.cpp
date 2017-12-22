@@ -126,7 +126,8 @@ int main() {
 	std::vector<int> sortedVector(randomVector);
 
 	// sorting random vector
-	mergeSort(sortedVector, fileSize); 
+	int level = 0; // reprezents the number of levels in mergesrt, graph
+	mergeSort(sortedVector, fileSize,level); 
 	
 
 	printf("vectorul randomizat: \n");

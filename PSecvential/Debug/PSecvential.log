@@ -1,2 +1,20 @@
-﻿  PSecvential.vcxproj -> D:\Facultate\Master\Programarea paralela si concurenta\Proiect\PSecvential\Debug\PSecvential.exe
+﻿  PSecvential.cpp
+d:\facultate\master\programarea paralela si concurenta\proiect\psecvential\psecvential\psecvential.cpp(14): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(181): note: see declaration of 'strerror'
+d:\facultate\master\programarea paralela si concurenta\proiect\psecvential\psecvential\psecvential.cpp(41): warning C4018: '<': signed/unsigned mismatch
+d:\facultate\master\programarea paralela si concurenta\proiect\psecvential\psecvential\psecvential.cpp(42): warning C4018: '<': signed/unsigned mismatch
+d:\facultate\master\programarea paralela si concurenta\proiect\psecvential\psecvential\psecvential.cpp(59): warning C4018: '<': signed/unsigned mismatch
+d:\facultate\master\programarea paralela si concurenta\proiect\psecvential\psecvential\psecvential.cpp(30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+d:\facultate\master\programarea paralela si concurenta\proiect\psecvential\psecvential\psecvential.cpp(31): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+d:\facultate\master\programarea paralela si concurenta\proiect\psecvential\psecvential\psecvential.cpp(91): warning C4018: '<': signed/unsigned mismatch
+d:\facultate\master\programarea paralela si concurenta\proiect\psecvential\psecvential\psecvential.cpp(92): warning C4018: '<': signed/unsigned mismatch
+d:\facultate\master\programarea paralela si concurenta\proiect\psecvential\psecvential\psecvential.cpp(84): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+d:\facultate\master\programarea paralela si concurenta\proiect\psecvential\psecvential\psecvential.cpp(85): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+d:\facultate\master\programarea paralela si concurenta\proiect\psecvential\psecvential\psecvential.cpp(119): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\facultate\master\programarea paralela si concurenta\proiect\psecvential\psecvential\psecvential.cpp(123): warning C4018: '<': signed/unsigned mismatch
+  PSecvential.vcxproj -> D:\Facultate\Master\Programarea paralela si concurenta\Proiect\PSecvential\Debug\PSecvential.exe
   PSecvential.vcxproj -> D:\Facultate\Master\Programarea paralela si concurenta\Proiect\PSecvential\Debug\PSecvential.pdb (Partial PDB)

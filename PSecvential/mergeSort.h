@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include <vector>
 #include "mergeSort.h"
+#include <thread>
 using namespace std;
 void merge(vector<int> &left, int nLeft, vector<int> &right, int nRight, vector<int> &A, int n) {
 	int i = 0, j = 0, k = 0; // i->left[i], j->right[j], k->A[k]
@@ -29,7 +30,7 @@ void merge(vector<int> &left, int nLeft, vector<int> &right, int nRight, vector<
 	}
 }
 
-void mergeSort(vector<int> &A, int n) {
+void mergeSort(vector<int> &A, int n, int level) {
 	if (n < 2) return;
 	int mid = (n / 2);
 	std::vector<int> left(mid);
@@ -41,8 +42,18 @@ void mergeSort(vector<int> &A, int n) {
 		right[i - mid] = A[i];
 	}
 
-	mergeSort(left, mid);
-	mergeSort(right, n - mid);
+	if (level < 3) {
+		int lvl2 = level + 1;
+		std::thread leftThread(mergeSort, std::ref(left), mid, lvl2);
+		std::thread rightThread(mergeSort, std::ref(right), n - mid, lvl2);
+		leftThread.join();
+		rightThread.join();
+	}
+	else {
+		mergeSort(left, mid, level);
+		mergeSort(right, n - mid, level);
+
+	}
 	merge(left, mid, right, n - mid, A, n);
 
 }

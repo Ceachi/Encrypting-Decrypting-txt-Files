@@ -36,5 +36,8 @@
     <ClCompile Include="PSecvential.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mergeSortParalel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
